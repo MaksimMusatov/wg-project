@@ -151,7 +151,8 @@ table
     font-weight: normal;
     font-style: normal;
 
-    src: url('opensans-bold-webfont.woff2') format('woff2'), url('opensans-bold-webfont.woff') format('woff');
+    src: url('../fonts/opensans-bold-webfont.eot');
+    src: url('../fonts/opensans-bold-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/opensans-bold-webfont.woff2') format('woff2'), url('../fonts/opensans-bold-webfont.woff') format('woff'), url('../fonts/opensans-bold-webfont.ttf') format('truetype'), url('../fonts/opensans-bold-webfont.svg#open_sansbold') format('svg');
 }
 
 @font-face
@@ -160,7 +161,8 @@ table
     font-weight: normal;
     font-style: normal;
 
-    src: url('opensans-regular-webfont.woff2') format('woff2'), url('opensans-regular-webfont.woff') format('woff');
+    src: url('../fonts/opensans-regular-webfont.eot');
+    src: url('../fonts/opensans-regular-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/opensans-regular-webfont.woff2') format('woff2'), url('../fonts/opensans-regular-webfont.woff') format('woff'), url('../fonts/opensans-regular-webfont.ttf') format('truetype'), url('../fonts/opensans-regular-webfont.svg#open_sansregular') format('svg');
 }
 
 @font-face
@@ -169,7 +171,8 @@ table
     font-weight: normal;
     font-style: normal;
 
-    src: url('opensans-semibold-webfont.woff2') format('woff2'), url('opensans-semibold-webfont.woff') format('woff');
+    src: url('../fonts/opensans-semibold-webfont.eot');
+    src: url('../fonts/opensans-semibold-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/opensans-semibold-webfont.woff2') format('woff2'), url('../fonts/opensans-semibold-webfont.woff') format('woff'), url('../fonts/opensans-semibold-webfont.ttf') format('truetype'), url('opensans-semibold-webfont.svg#open_sanssemibold') format('svg');
 }
 
 h1
@@ -272,7 +275,7 @@ h3
     transition: .3;
 
     border-radius: 50%;
-    background: 50% 50% url('/assets/images/success.png') no-repeat;
+    background: 50% 50% url('../images/success.png') no-repeat;
 }
 
 .btn-success:hover
@@ -329,7 +332,7 @@ header
     margin: 0 0 150px;
     padding-top: 68px;
 
-    background: url('/assets/images/header.png') no-repeat 50% 50%;
+    background: url('../images/header.png') no-repeat 50% 50%;
     background-size: cover;
 }
 
@@ -342,7 +345,7 @@ header .logo
     margin: 0 auto 80px;
 
     border-radius: 50%;
-    background: #000 url('/assets/images/main-logo.png') no-repeat 50% 50%;
+    background: #000 url('../images/main-logo.png') no-repeat 50% 50%;
 }
 
 header .search-block
@@ -590,7 +593,7 @@ b
 
     padding: 185px 0 331px;
 
-    background: url('/assets/images/info-bg.jpg') 50% 100% no-repeat;
+    background: url('../images/info-bg.jpg') 50% 100% no-repeat;
     background-size: contain;
 }
 
@@ -623,7 +626,7 @@ b
 
     content: '';
 
-    background: url('/assets/images/tablets-heading.png') no-repeat;
+    background: url('../images/tablets-heading.png') no-repeat;
 }
 
 .info-row .desktop-info
@@ -664,7 +667,7 @@ b
 
     content: '';
 
-    background: url('/assets/images/desktops-heading.png') 0 0 no-repeat;
+    background: url('../images/desktops-heading.png') 0 0 no-repeat;
 }
 
 @media screen and (max-width: 1048px)
@@ -696,7 +699,7 @@ b
 {
     height: 635px;
 
-    background: no-repeat 50% 50% url('/assets/images/map.png');
+    background: no-repeat 50% 50% url('../images/map.png');
     background-size: cover;
 }
 

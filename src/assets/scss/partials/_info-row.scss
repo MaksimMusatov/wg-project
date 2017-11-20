@@ -12,7 +12,7 @@
   .tablet-info {
     position: relative;
     padding: 185px 0 331px;
-    background: url("/assets/images/info-bg.jpg") 50% 100% no-repeat;
+    background: url("../images/info-bg.jpg") 50% 100% no-repeat;
     background-size: contain;
     z-index: 2;
 
@@ -34,7 +34,7 @@
       left: 50%;
       width: 504px;
       height: 503px;
-      background: url("/assets/images/tablets-heading.png") no-repeat;
+      background: url("../images/tablets-heading.png") no-repeat;
       z-index: -1;
       margin-left: -360px;
     }
@@ -64,7 +64,7 @@
         top: 20px;
         right: 74%;
         z-index: 1;
-        background: url("/assets/images/desktops-heading.png") 0 0 no-repeat;
+        background: url("../images/desktops-heading.png") 0 0 no-repeat;
       }
     }
   }
