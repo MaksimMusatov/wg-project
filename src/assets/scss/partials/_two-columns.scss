@@ -1,0 +1,47 @@
+.two-columns {
+  margin: 0 auto;
+  padding: 0 0 110px;
+  overflow: hidden;
+  max-width: 865px;
+
+  .col {
+    float: right;
+    width: 46%;
+
+    &:first-child {
+      float: left;
+    }
+
+    img {
+      float: left;
+      margin-right: 35px;
+    }
+
+    strong {
+      font: 27px/62px $font-bold;
+      color: $color-black;
+    }
+
+    p {
+      font: 14px/23px $font-regular;
+      color: $color-light-black;
+    }
+  }
+}
+
+@media screen and (max-width: $tablet) {
+  .two-columns {
+    padding: 0 15px 50px;
+  }
+}
+
+@media screen and (max-width: $mobile) {
+  .two-columns {
+    padding: 0 15px 40px;
+
+    .col {
+      float: none !important;
+      width: 100%;
+    }
+  }
+}

@@ -1,0 +1,11 @@
+footer {
+  height: 47px;
+  background: $color-green;
+
+  p {
+    color: $color-white;
+    font: 14px/22px $font-regular;
+    text-align: center;
+    padding-top: 15px;
+  }
+}

@@ -1,0 +1,20 @@
+.txt {
+  box-sizing: border-box;
+  margin-bottom: 15px;
+  width: 100%;
+  font: 14px/22px $font-regular;
+  padding-left: 10px;
+  border: 1px solid $color-border-gray;
+  border-radius: 2px;
+  background: $color-white;
+
+  &::placeholder {
+    color: $color-light-gray;
+  }
+}
+
+textarea.txt {
+  height: 80px;
+  resize: none;
+  overflow: auto;
+}

@@ -1,0 +1,32 @@
+#columns
+{
+    display: -ms-flexbox;
+    display: flex;
+        flex-direction: row;
+
+    -ms-flex-direction: row;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+#columns #documents,
+#columns #photos
+{
+    height: 400px;
+
+    border: 1px solid red;
+
+    -ms-flex-order: 0;
+    order: 0;
+    -ms-flex: 0 1 auto;
+        flex: 0 1 auto;
+    -ms-flex-item-align: auto;
+    -ms-grid-row-align: auto;
+    align-self: auto;
+}

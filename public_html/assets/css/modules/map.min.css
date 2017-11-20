@@ -1,0 +1,17 @@
+#map
+{
+    width: 100%;
+    min-height: 635px;
+
+    background: no-repeat 50% 50% url('/assets/images/map.png');
+    background-size: cover;
+}
+
+#map .form
+{
+    width: 435px;
+    height: 435px;
+
+    border: 1px solid blue;
+    border-radius: 50%;
+}

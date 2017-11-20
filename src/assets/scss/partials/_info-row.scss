@@ -1,0 +1,104 @@
+.info-row {
+  background-color: $color-light-green;
+  padding-top: 90px;
+
+  .info-holder {
+    max-width: 700px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
+  }
+
+  .tablet-info {
+    position: relative;
+    padding: 185px 0 331px;
+    background: url("/assets/images/info-bg.jpg") 50% 100% no-repeat;
+    background-size: contain;
+    z-index: 2;
+
+    p {
+      font: 14px/23px $font-regular;
+      color: $color-white;
+      margin-bottom: 60px;
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 45px;
+    }
+
+    &:before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 50%;
+      width: 504px;
+      height: 503px;
+      background: url("/assets/images/tablets-heading.png") no-repeat;
+      z-index: -1;
+      margin-left: -360px;
+    }
+  }
+
+  .desktop-info {
+    padding: 150px 0;
+    background: $color-dark-green;
+    position: relative;
+    overflow: hidden;
+
+    p {
+      font: 14px/23px $font-regular;
+      color: $color-white;
+      margin-bottom: 45px;
+    }
+
+    .info-holder {
+      box-sizing: border-box;
+      padding-left: 15%;
+
+      &:before {
+        content: "";
+        width: 505px;
+        height: 577px;
+        position: absolute;
+        top: 20px;
+        right: 74%;
+        z-index: 1;
+        background: url("/assets/images/desktops-heading.png") 0 0 no-repeat;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: $tablet) {
+
+.info-row {
+    .tablet-info,
+    .desktop-info {
+      padding: 155px 15px 66px;
+    }
+
+    .desktop-info {
+
+      .info-holder {
+        padding-left: 0;
+
+        &:before {
+          display: none;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: $mobile) {
+  .info-row{
+
+    .tablet-info {
+
+      &:before {
+        margin-left: -420px;
+      }
+    }
+  }
+}
